@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KuGouHome_Android.iml" filepath="$PROJECT_DIR$/KuGouHome_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/flutter.iml" filepath="$PROJECT_DIR$/../flutter_module/.android/Flutter/flutter.iml" />
+      <module fileurl="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/flutter_boost.iml" filepath="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/flutter_boost.iml" />
+      <module fileurl="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/video_player-0.10.1+6/android/video_player.iml" filepath="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/video_player-0.10.1+6/android/video_player.iml" />
+      <module fileurl="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android/xservice_kit.iml" filepath="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android/xservice_kit.iml" />
+    </modules>
+  </component>
+</project>
