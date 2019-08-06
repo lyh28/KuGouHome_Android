@@ -33,7 +33,7 @@ import io.flutter.view.FlutterView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-//    public static WeakReference<MainActivity> sRef;
+    public static WeakReference<MainActivity> sRef;
 
     private final String METHODCHANNEL_NAME="com.lyh/flutter";
     private final String METHODCHANNEL_METHOD="TabRoute";
@@ -59,23 +59,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        sRef = new WeakReference<>(this);
+        sRef = new WeakReference<>(this);
         setContentView(R.layout.activity_main);
 
         initData();
         initUi();
         updateBottomLayout();
         setFlutterView();
-//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//        transaction.add(R.id.main_framelayout, fragments[tabIndex]);
-//        transaction.commit();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        sRef.clear();
-//        sRef = null;
+        sRef.clear();
+        sRef = null;
     }
 
     private void initData() {
@@ -108,14 +105,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void setFlutterView() {
 
-//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//        transaction.replace(R.id.main_framelayout,fragments[tabIndex]);
-//        transaction.commit();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.main_framelayout,fragments[tabIndex]);
+        transaction.commit();
 
-        frameLayout=findViewById(R.id.main_framelayout);
-        flutterView=Flutter.createView(this,getLifecycle(),HOMEPAGE);
-        frameLayout.addView(flutterView);
-        methodChannel=new MethodChannel(flutterView,METHODCHANNEL_NAME);
+//        frameLayout=findViewById(R.id.main_framelayout);
+//        flutterView=Flutter.createView(this,getLifecycle(),HOMEPAGE);
+//        frameLayout.addView(flutterView);
+//        methodChannel=new MethodChannel(flutterView,METHODCHANNEL_NAME);
     }
 
     //更新底部Tab栏
@@ -136,32 +133,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 0;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,HOMEPAGE);
-//                setFlutterView();
+//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,HOMEPAGE);
+                setFlutterView();
                 break;
             case R.id.main_bottomlayout_action:
                 if (tabIndex == 1)
                     return;
                 tabIndex = 1;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,ACTIONPAGE);
-//                setFlutterView();
+//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,ACTIONPAGE);
+                setFlutterView();
                 break;
             case R.id.main_bottomlayout_song:
                 if (tabIndex == 2)
                     return;
                 tabIndex = 2;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,SONGPAGE);
-//                setFlutterView();
+//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,SONGPAGE);
+                setFlutterView();
                 break;
             case R.id.main_bottomlayout_me:
                 if (tabIndex == 3)
                     return;
                 tabIndex = 3;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,MEPAGE);
-//                setFlutterView();
+//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,MEPAGE);
+                setFlutterView();
                 break;
         }
     }
