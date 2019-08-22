@@ -30,7 +30,6 @@ android {
         targetCompatibility 1.8
     }
 }
-
 dependencies {
     implementation project(':flutter')
     implementation project(':flutter_boost')

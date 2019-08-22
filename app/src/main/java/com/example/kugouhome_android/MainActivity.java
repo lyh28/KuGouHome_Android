@@ -3,15 +3,9 @@ package com.example.kugouhome_android;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.FrameLayout;
 
 import com.example.kugouhome_android.FlutterPage.ActionPageFragment;
@@ -24,9 +18,6 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.flutter.embedding.android.FlutterActivity;
-import io.flutter.facade.Flutter;
-import io.flutter.facade.FlutterFragment;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.view.FlutterView;
@@ -51,17 +42,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private List<Buttom_IconView> buttom_iconViews;
     private Fragment[] fragments;
     private int tabIndex;
-
-    private FrameLayout frameLayout;
-    private FlutterView flutterView;
-    private MethodChannel methodChannel;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sRef = new WeakReference<>(this);
         setContentView(R.layout.activity_main);
-
         initData();
         initUi();
         updateBottomLayout();
@@ -104,15 +89,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setFlutterView() {
-
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.main_framelayout,fragments[tabIndex]);
         transaction.commit();
-
-//        frameLayout=findViewById(R.id.main_framelayout);
-//        flutterView=Flutter.createView(this,getLifecycle(),HOMEPAGE);
-//        frameLayout.addView(flutterView);
-//        methodChannel=new MethodChannel(flutterView,METHODCHANNEL_NAME);
     }
 
     //更新底部Tab栏
@@ -133,7 +112,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 0;
                 updateBottomLayout();
-//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,HOMEPAGE);
                 setFlutterView();
                 break;
             case R.id.main_bottomlayout_action:
@@ -141,7 +119,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 1;
                 updateBottomLayout();
-//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,ACTIONPAGE);
                 setFlutterView();
                 break;
             case R.id.main_bottomlayout_song:
@@ -149,7 +126,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 2;
                 updateBottomLayout();
-//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,SONGPAGE);
                 setFlutterView();
                 break;
             case R.id.main_bottomlayout_me:
@@ -157,7 +133,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 3;
                 updateBottomLayout();
-//                methodChannel.invokeMethod(METHODCHANNEL_METHOD,MEPAGE);
                 setFlutterView();
                 break;
         }
