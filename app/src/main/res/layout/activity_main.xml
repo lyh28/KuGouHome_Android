@@ -7,6 +7,7 @@
     android:background="#FFFFFF">
     <FrameLayout
         android:id="@+id/main_framelayout"
+        android:background="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></FrameLayout>
     <LinearLayout

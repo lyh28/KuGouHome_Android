@@ -3,44 +3,20 @@ package com.example.kugouhome_android;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.widget.FrameLayout;
 
-import com.example.kugouhome_android.FlutterPage.ActionPageFragment;
-import com.example.kugouhome_android.FlutterPage.HomePageFragment;
-import com.example.kugouhome_android.FlutterPage.MePageFragment;
-import com.example.kugouhome_android.FlutterPage.SongPageFragment;
+import com.example.kugouhome_android.FlutterPage.MainPageFragment;
+import com.example.kugouhome_android.MethodCallHandler.RouteHandler;
 import com.example.kugouhome_android.View.Buttom_IconView;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.flutter.embedding.android.FlutterActivity;
-import io.flutter.facade.Flutter;
-import io.flutter.facade.FlutterFragment;
-import io.flutter.plugin.common.MethodCall;
-import io.flutter.plugin.common.MethodChannel;
-import io.flutter.view.FlutterView;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-//    public static WeakReference<MainActivity> sRef;
-
-    private final String METHODCHANNEL_NAME="com.lyh/flutter";
-    private final String METHODCHANNEL_METHOD="TabRoute";
-    private final String HOMEPAGE="HomePage";
-    private final String ACTIONPAGE="ActionPage";
-    private final String SONGPAGE="SongPage";
-    private final String MEPAGE="MePage";
+    public static WeakReference<MainActivity> sRef;
 
     private final String HOMEPAGENAME = "首页";
     private final String ACTIONPAGENAME = "动态";
@@ -49,43 +25,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "MainActivity";
     private List<Buttom_IconView> buttom_iconViews;
-    private Fragment[] fragments;
     private int tabIndex;
-
-    private FrameLayout frameLayout;
-    private FlutterView flutterView;
-    private MethodChannel methodChannel;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        sRef = new WeakReference<>(this);
+        sRef = new WeakReference<>(this);
         setContentView(R.layout.activity_main);
-
         initData();
         initUi();
         updateBottomLayout();
-        setFlutterView();
-//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//        transaction.add(R.id.main_framelayout, fragments[tabIndex]);
-//        transaction.commit();
+        initFlutterView();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        sRef.clear();
-//        sRef = null;
+        sRef.clear();
+        sRef = null;
     }
 
     private void initData() {
         tabIndex = 0;
         buttom_iconViews = new ArrayList<>();
-        fragments = new Fragment[4];
-        fragments[0] = new HomePageFragment();
-        fragments[1] = new ActionPageFragment();
-        fragments[2] = new SongPageFragment();
-        fragments[3] = new MePageFragment();
     }
 
     private void initUi() {
@@ -106,16 +67,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             buttom_iconViews.get(i).setOnClickListener(this);
     }
 
-    private void setFlutterView() {
-
-//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//        transaction.replace(R.id.main_framelayout,fragments[tabIndex]);
-//        transaction.commit();
-
-        frameLayout=findViewById(R.id.main_framelayout);
-        flutterView=Flutter.createView(this,getLifecycle(),HOMEPAGE);
-        frameLayout.addView(flutterView);
-        methodChannel=new MethodChannel(flutterView,METHODCHANNEL_NAME);
+    private void initFlutterView() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_framelayout,new MainPageFragment()).commit();
     }
 
     //更新底部Tab栏
@@ -136,32 +89,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 0;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,HOMEPAGE);
-//                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToHome",null);
                 break;
             case R.id.main_bottomlayout_action:
                 if (tabIndex == 1)
                     return;
                 tabIndex = 1;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,ACTIONPAGE);
-//                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToAction",null);
                 break;
             case R.id.main_bottomlayout_song:
                 if (tabIndex == 2)
                     return;
                 tabIndex = 2;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,SONGPAGE);
-//                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToSong",null);
                 break;
             case R.id.main_bottomlayout_me:
                 if (tabIndex == 3)
                     return;
                 tabIndex = 3;
                 updateBottomLayout();
-                methodChannel.invokeMethod(METHODCHANNEL_METHOD,MEPAGE);
-//                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToMe",null);
+
                 break;
         }
     }

@@ -3,6 +3,7 @@ package com.example.kugouhome_android.FlutterPage;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.kugouhome_android.MethodCallHandler.HandlerManager;
 import com.example.kugouhome_android.PageRouter;
 import com.taobao.idlefish.flutterboost.containers.BoostFlutterActivity;
 
