@@ -41,8 +41,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb987db-a4d7-4180-9c19-2b70be5888bb" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/HandlerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
@@ -69,8 +92,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="95">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +109,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="342">
               <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="28" />
+=======
+            <state relative-caret-position="722">
+              <caret line="56" column="69" lean-forward="true" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +123,23 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="69" column="70" lean-forward="true" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
@@ -122,6 +170,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
@@ -148,6 +197,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -202,6 +257,27 @@
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/build.gradle" />
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/VideoActivity.java" />
+<<<<<<< Updated upstream
+=======
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java" />
+        <option value="D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/common.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/aidl/com/example/kugouhome_android/IMyAidlInterface.aidl" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/test.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/com/example/kugouhome_android/IMyAidlInterface.java" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/Flutter.java" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/FlutterFragment.java" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/NotifyChannel.kt" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/MethodCallHandler/VideoImageHandler.java" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/VideoImageHandler.java" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkManager.kt" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Ijk.kt" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/TextureMediaPlayer.java" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" />
@@ -210,8 +286,17 @@
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" />
       </list>
     </option>
@@ -400,11 +485,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-1" y="0" width="1005" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2074074" />
+=======
+    <frame x="1" y="0" width="1238" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28183362" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -412,8 +505,13 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Run" order="0" weight="0.79627603" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.59846824" />
+=======
+      <window_info anchor="bottom" id="Run" order="0" weight="0.79609543" />
+      <window_info anchor="bottom" x="31" y="187" width="932" height="675" id="Logcat" order="1" weight="0.4720701" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32968238" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.65207875" />
@@ -692,10 +790,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -716,20 +821,50 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="323">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+=======
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,12 +872,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+>>>>>>> Stashed changes
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,16 +893,28 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -778,13 +932,39 @@
             <element signature="e#632#633#0" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="361">
           <caret line="69" column="70" lean-forward="true" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
+=======
+        <state relative-caret-position="722">
+          <caret line="56" column="69" lean-forward="true" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5085#5086#0" expanded="true" />
+            <element signature="e#5138#5139#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
