@@ -13,10 +13,10 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="KuGouHome_Android" />
-      <module name="xservice_kit" />
       <module name="flutter_boost" />
-      <module name="app" />
       <module name="flutter" />
+      <module name="xservice_kit" />
+      <module name="app" />
       <module name="flutter_ijkplayer" />
     </loaded-modules>
   </component>
@@ -31,8 +31,13 @@
     </library-updates>
     <last-search-timestamp>1566207885198</last-search-timestamp>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" line="16" mnemonic="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb987db-a4d7-4180-9c19-2b70be5888bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/HandlerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -43,7 +48,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +80,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+            <state relative-caret-position="27">
+              <caret line="120" column="78" lean-forward="true" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5085#5086#0" expanded="true" />
+                <element signature="e#5138#5139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/HandlerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +204,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>surfaceTexture</find>
+      <find>prepare</find>
+      <find>mediaPlayer</find>
+    </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="D:\androidkey\flutter.jks" />
@@ -110,15 +236,7 @@
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/build.gradle" />
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/VideoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" />
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java" />
         <option value="D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -128,86 +246,138 @@
         <option value="$PROJECT_DIR$/app/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/com/example/kugouhome_android/IMyAidlInterface.java" />
         <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/Flutter.java" />
         <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/FlutterFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" />
-        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Ijk.kt" />
-        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java" />
         <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/NotifyChannel.kt" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/MethodCallHandler/VideoImageHandler.java" />
+        <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/VideoImageHandler.java" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkManager.kt" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Ijk.kt" />
+        <option value="D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/TextureMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/HandlerManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/HomePageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="992" />
+    <option name="width" value="1238" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="kugouhome_android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="kugouhome_android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="FlutterPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="kugouhome_android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="MethodCallHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.flutter_module" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter" type="616d4139:PackageViewModuleNode" />
+              <item name="io.flutter" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter" type="616d4139:PackageViewModuleNode" />
+              <item name="io.flutter" type="1f31426a:PackageElementNode" />
+              <item name="plugins" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
               <item name="flutter_boost" type="616d4139:PackageViewModuleNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_ijkplayer" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_ijkplayer" type="616d4139:PackageViewModuleNode" />
+              <item name="top.kikt.ijkplayer" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KuGouHome_Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KuGouHome_Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kugouhome_android" type="462c0819:PsiDirectoryNode" />
+              <item name="KuGouHome_Android" type="58d84e3e:PackageViewProjectNode" />
+              <item name="xservice_kit" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,6 +405,9 @@
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.kugouhome_android.MethodCallHandler" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,11 +507,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="992" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="0" width="1238" height="1047" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2972103" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28183362" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.79609543" />
+      <window_info active="true" anchor="bottom" x="31" y="187" width="932" height="675" id="Logcat" order="1" visible="true" weight="0.4720701" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.65207875" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.3274918" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.2573932" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32968238" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.32804233" />
+      <window_info anchor="right" id="Hierarchy" order="8" visible="true" weight="0.17317487" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28525016" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -357,232 +560,25 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.2595838" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32968238" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Flutter Inspector" order="4" />
-      <window_info anchor="right" id="Flutter Outline" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Preview" order="7" weight="0.32804233" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21089108" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.79609543" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.7613883" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.32968238" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.65207875" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32822758" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Build" order="9" visible="true" weight="0.36692223" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Flutter Inspector" order="4" />
-      <window_info anchor="right" id="Flutter Outline" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Preview" order="7" weight="0.32804233" />
+      <window_info anchor="right" id="Hierarchy" order="0" visible="true" weight="0.17348927" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.32804233" />
     </layout-to-restore>
   </component>
   <component name="UnloadedModulesList">
     <module name="fijkplayer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/video_player-0.10.1+6/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/build/generated/source/buildConfig/debug/com/jaden/flutterijk/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/src/main/java/com/jaden/flutterijk/QueuingEventSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/src/main/java/com/jaden/flutterijk/FlutterIjkPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/git/flutter_ijk-23db263e5e11d480d99b8aa70b70984538dcb1ce/android/src/main/java/com/jaden/flutterijk/RawDataSourceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/SDK/platforms/android-29/android.jar!/android/content/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SDK/platforms/android-29/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
-          <folding>
-            <element signature="e#6766#6767#0" expanded="true" />
-            <element signature="e#6817#6818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/FragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.0.1/ae10d2e1965b944830c2c2aaf154765ceb32e0bc/core-1.0.1-sources.jar!/androidx/core/app/ComponentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/SDK/platforms/android-29/android.jar!/android/content/res/AssetManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/test.java" />
-    <entry file="jar://D:/SDK/platforms/android-29/android.jar!/android/os/IBinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/com/example/kugouhome_android/IMyAidlInterface.java" />
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/fijkplayer-0.0.7/android/src/main/java/com/befovy/fijkplayer/FijkPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/Flutter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -608,24 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/FlutterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/MediaInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/TextureMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -638,13 +620,6 @@
     </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Log.kt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IjkMediaCodecInfo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1653">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/ISurfaceTextureHost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -681,20 +649,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java">
+    <entry file="jar://D:/software/flutter/bin/cache/artifacts/engine/android-arm64/flutter.jar!/io/flutter/plugin/common/MethodChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/flutter/bin/cache/artifacts/engine/android-arm64/flutter.jar!/io/flutter/plugin/common/PluginRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/interfaces/IFlutterViewContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/build/generated/source/buildConfig/debug/com/example/flutter_module/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/Flutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/facade/FlutterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/flutter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="150" column="64" lean-forward="true" selection-start-line="150" selection-start-column="64" selection-end-line="150" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/MethodCallHandler/VideoImageHandler.java" />
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.420/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flutter_module/.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/ISurfaceTextureHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/NotifyChannel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/flutter_ijkplayer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2172" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/flutter/bin/cache/artifacts/engine/android-arm64/flutter.jar!/io/flutter/view/TextureRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/MediaPlayerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkplayerPlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#57#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Ijk.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="531" column="24" selection-start-line="531" selection-start-column="24" selection-end-line="531" selection-end-column="24" />
+        <state relative-caret-position="3040">
+          <caret line="219" column="11" selection-start-line="219" selection-start-column="11" selection-end-line="219" selection-end-column="11" />
           <folding>
             <element signature="e#9160#9161#0" expanded="true" />
             <element signature="e#9197#9198#0" expanded="true" />
@@ -702,47 +819,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkplayerPlugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/Ijk.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/IjkManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/AbstractMediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="1102">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/top/kikt/ijkplayer/NotifyChannel.kt">
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="110" column="53" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_ijkplayer-0.3.3/android/src/main/java/tv/danmaku/ijk/media/player/TextureMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/VideoImageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/HandlerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/ActionPageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MethodCallHandler/RouteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/PageRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/KuGouApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/VideoPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/SongPageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MePageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/FlutterPage/MainPageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kugouhome_android/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+        <state relative-caret-position="27">
+          <caret line="120" column="78" lean-forward="true" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5085#5086#0" expanded="true" />
+            <element signature="e#5138#5139#0" expanded="true" />
           </folding>
         </state>
       </provider>

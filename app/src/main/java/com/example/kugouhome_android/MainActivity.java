@@ -6,32 +6,17 @@ import androidx.fragment.app.FragmentTransaction;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.FrameLayout;
 
-import com.example.kugouhome_android.FlutterPage.ActionPageFragment;
-import com.example.kugouhome_android.FlutterPage.HomePageFragment;
-import com.example.kugouhome_android.FlutterPage.MePageFragment;
-import com.example.kugouhome_android.FlutterPage.SongPageFragment;
+import com.example.kugouhome_android.FlutterPage.MainPageFragment;
+import com.example.kugouhome_android.MethodCallHandler.RouteHandler;
 import com.example.kugouhome_android.View.Buttom_IconView;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.flutter.plugin.common.MethodCall;
-import io.flutter.plugin.common.MethodChannel;
-import io.flutter.view.FlutterView;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
     public static WeakReference<MainActivity> sRef;
-
-    private final String METHODCHANNEL_NAME="com.lyh/flutter";
-    private final String METHODCHANNEL_METHOD="TabRoute";
-    private final String HOMEPAGE="HomePage";
-    private final String ACTIONPAGE="ActionPage";
-    private final String SONGPAGE="SongPage";
-    private final String MEPAGE="MePage";
 
     private final String HOMEPAGENAME = "首页";
     private final String ACTIONPAGENAME = "动态";
@@ -40,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "MainActivity";
     private List<Buttom_IconView> buttom_iconViews;
-    private Fragment[] fragments;
     private int tabIndex;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initData();
         initUi();
         updateBottomLayout();
-        setFlutterView();
+        initFlutterView();
     }
 
     @Override
@@ -63,11 +47,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initData() {
         tabIndex = 0;
         buttom_iconViews = new ArrayList<>();
-        fragments = new Fragment[4];
-        fragments[0] = new HomePageFragment();
-        fragments[1] = new ActionPageFragment();
-        fragments[2] = new SongPageFragment();
-        fragments[3] = new MePageFragment();
     }
 
     private void initUi() {
@@ -88,10 +67,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             buttom_iconViews.get(i).setOnClickListener(this);
     }
 
-    private void setFlutterView() {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.main_framelayout,fragments[tabIndex]);
-        transaction.commit();
+    private void initFlutterView() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_framelayout,new MainPageFragment()).commit();
     }
 
     //更新底部Tab栏
@@ -112,28 +89,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 tabIndex = 0;
                 updateBottomLayout();
-                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToHome",null);
                 break;
             case R.id.main_bottomlayout_action:
                 if (tabIndex == 1)
                     return;
                 tabIndex = 1;
                 updateBottomLayout();
-                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToAction",null);
                 break;
             case R.id.main_bottomlayout_song:
                 if (tabIndex == 2)
                     return;
                 tabIndex = 2;
                 updateBottomLayout();
-                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToSong",null);
                 break;
             case R.id.main_bottomlayout_me:
                 if (tabIndex == 3)
                     return;
                 tabIndex = 3;
                 updateBottomLayout();
-                setFlutterView();
+                RouteHandler.getMethodChannel().invokeMethod("ToMe",null);
+
                 break;
         }
     }
